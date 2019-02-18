@@ -3,19 +3,39 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/history": "^4.7.2",
     "@types/jest": "24.0.1",
+    "@types/lodash": "^4.14.121",
     "@types/node": "11.9.0",
     "@types/react": "16.8.2",
     "@types/react-dom": "16.8.0",
+    "@types/react-redux": "^7.0.1",
+    "@types/react-router": "^4.4.4",
+    "antd": "^3.13.2",
+    "babel-plugin-import": "^1.11.0",
+    "connected-react-router": "^6.3.1",
+    "customize-cra": "^0.2.11",
+    "history": "^4.7.2",
+    "less": "^3.9.0",
+    "lodash": "^4.17.11",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
     "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "reflexbox": "^3.0.1",
     "typescript": "3.3.3"
   },
+  "theme": {
+    "primary-color": "#1DA57A",
+    "layout-header-background": "#547980"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -26,5 +46,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "less-loader": "^4.1.0",
+    "react-app-rewired": "^2.1.0"
+  }
 }
